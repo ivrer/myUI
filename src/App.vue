@@ -7,6 +7,8 @@
     <main class="sidebar__main">
       <borderLiquid></borderLiquid>
       <mySwitch></mySwitch>
+      <Siderbar_first></Siderbar_first>
+      <DragBlock></DragBlock>
     </main>
 </div>
 </template>
@@ -14,6 +16,8 @@
 <script setup>
 import borderLiquid from "./components/border/border-liquid"
 import mySwitch from "./components/checkbox/mySwitch.vue"
+import Siderbar_first from "./components/sidebar/Sidebar_first.vue"
+import DragBlock from "./components/drag/dragBlock.vue"
 
 
 </script>
@@ -33,7 +37,7 @@ import mySwitch from "./components/checkbox/mySwitch.vue"
     flex: 1;
 
     /* Make it scrollable */
-    overflow: auto;
+    overflow: hidden;
  
 }
 </style>
